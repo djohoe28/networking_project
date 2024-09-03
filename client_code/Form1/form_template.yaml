@@ -8,7 +8,7 @@ components:
   - components: []
     data_bindings:
     - {code: '', property: url, writeback: false}
-    event_bindings: {click: link_1_click}
+    event_bindings: {}
     layout_properties: {}
     name: link_encrypt
     properties: {text: Encrypt}
