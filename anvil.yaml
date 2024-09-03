@@ -1,12 +1,16 @@
 allow_embedding: false
 dependencies: []
-name: M3 App 1
-package_name: M3_App_1
+metadata: {description: A conclusion project for a Networking course., title: Networking Project}
+name: NetworkingProject
+package_name: NetworkingProject
 renamed: true
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-standard}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
 startup_form: Form1
